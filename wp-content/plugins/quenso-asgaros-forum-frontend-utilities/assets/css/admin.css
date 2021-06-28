@@ -1,0 +1,114 @@
+/* ADMIN HEADER */
+#quenso-wrap {
+    position: relative;
+    overflow: auto;
+    margin: 24px 20px 0 2px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+#quenso-wrap img {
+	max-height: 40px;
+}
+#quenso-wrap a {
+	text-decoration: none;
+}
+#quenso-wrap .header-left,
+#quenso-wrap .header-right {
+    min-width: 200px;
+}
+#quenso-wrap .header-left {
+    height: 40px;
+    float: left;
+	font-size: 12px;
+}
+#quenso-wrap .header-right {
+    color: #82878c;
+    font-size: 18px;
+    float: right;
+    text-align: right;
+	margin-top: 10px;
+}
+#quenso-wrap .title {
+	border-right: 1px solid rgba(0,0,0,.06);
+	margin-right: 10px;
+	padding-right: 10px;
+}
+#quenso-wrap .link {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+@media screen and (max-width: 782px) {
+    #quenso-wrap .title {
+    	border-right: none;
+    }
+    #quenso-wrap .header-right {
+        text-align: left;
+        float: none;
+    }
+}
+/* ADMIN OPTIONS */
+#quenso-options-wrap {
+	position: relative;
+    overflow: auto;
+    margin: 24px 20px 0 2px;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+.quenso-options-row {
+    width: 100%;
+    height: 60px;
+    border-left: 1px solid rgba(0,0,0,.1);
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0,0,0,.1);
+    float: left;
+}
+.quenso-options-row:nth-child(2n+0) {
+    background-color: rgba(0,0,0,.02);
+}
+.quenso-options-row:last-child {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.quenso-options-row .quenso-options-column {
+	min-width: 200px;
+	padding: 20px 0px;
+	margin: 0px 20px;
+	float: left;
+	color: #696969;
+}
+.quenso-options-row .quenso-options-column input[type=text] {
+    margin-top: -20px;
+}
+.quenso-options-row .quenso-options-column:nth-child(2n+0) {
+    min-width: 200px;
+}
+.quenso-options-row .quenso-options-column:last-child {
+    font-size: smaller;
+    color: #999999;
+}
+#quenso-options-submit {
+    margin-left: 5px;
+}
+#quenso-options-submit .success {
+    color: green;
+}
+@media screen and (max-width: 1430px) {
+    #quenso-options-wrap {
+    	position: initial;
+    }
+    .quenso-options-row {
+        height: 100%;
+    }
+    .quenso-options-row .quenso-options-column {
+    	margin-bottom: -10px;
+    }
+    .quenso-options-row .quenso-options-column:last-child {
+        width: 90%;
+        margin-top: -10px;
+    }
+}

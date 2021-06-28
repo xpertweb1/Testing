@@ -1,0 +1,637 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Asgaros Forum - Frontend Utilities by Quenso\n"
+"POT-Creation-Date: 2020-05-23 02:12+0200\n"
+"PO-Revision-Date: 2020-05-23 02:12+0200\n"
+"Last-Translator: Quenso <info@quenso.de>\n"
+"Language-Team: Quenso <info@quenso.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: asgaros-forum-frontend-utilities.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: asgaros-forum-frontend-utilities.php:73
+msgid "Account Status"
+msgstr "Account Status"
+
+#: asgaros-forum-frontend-utilities.php:74
+msgid "Confirm Manually"
+msgstr "Manuell Bestätigen"
+
+#: asgaros-forum-frontend-utilities.php:75
+msgid "Confirmation Email"
+msgstr "Bestätigungsmail"
+
+#: asgaros-forum-frontend-utilities.php:83
+#: asgaros-forum-frontend-utilities.php:536
+msgid "Please confirm your account!"
+msgstr "Bitte bestätige deinen Account!"
+
+#: asgaros-forum-frontend-utilities.php:110
+#, php-format
+msgid "The %s plugin requires Asgaros Forum to be installed and activated."
+msgstr ""
+"Das %s Plugin erfordert die Installation und Aktivierung von Asgaros Forum."
+
+#: asgaros-forum-frontend-utilities.php:356
+msgid "The passwords you entered do not match. Please try again."
+msgstr ""
+"Die eingegebenen Passwörter stimmen nicht überein. Bitte versuch es nochmal."
+
+#: asgaros-forum-frontend-utilities.php:358
+#: asgaros-forum-frontend-utilities.php:598
+msgid ""
+"Password should be at least 8 characters in length and should include at "
+"least one upper case letter, one number, and one special character."
+msgstr ""
+"Das Passwort muss min. aus 8 Zeichen bestehen und sollte einen "
+"Großbuchstaben, eine Zahl und ein Sonderzeichen enthalten."
+
+#: asgaros-forum-frontend-utilities.php:368
+msgid "The email you entered is invalid. Please enter a valid email."
+msgstr ""
+"Die eingegebene Email adresse ist ungültig. Bitte gib eine gültige Email "
+"Adresse ein."
+
+#: asgaros-forum-frontend-utilities.php:373
+msgid "The email you entered belongs to another user. Please use another."
+msgstr ""
+"Die eingebene Email adresse wird bereits von einem anderen Benutzer genutzt."
+
+#: asgaros-forum-frontend-utilities.php:388
+msgid "There was a problem uploading your new avatar. Please try again."
+msgstr ""
+"Es gab ein Problem beim Upload deines neuen Avatars. Bitte versuch es "
+"nochmal."
+
+#: asgaros-forum-frontend-utilities.php:479
+msgid "Successfully updated."
+msgstr "Erfolgreich aktualisiert."
+
+#: asgaros-forum-frontend-utilities.php:492
+#: asgaros-forum-frontend-utilities.php:559
+#: asgaros-forum-frontend-utilities.php:619
+#: asgaros-forum-frontend-utilities.php:632
+msgid "Something went wrong. Please try again."
+msgstr "Es ist etwas schief gelaufen. Bitte versuch es nochmal."
+
+#: asgaros-forum-frontend-utilities.php:536
+msgid "Resend confirmation email"
+msgstr "Bestätigungsmail erneut senden"
+
+#: asgaros-forum-frontend-utilities.php:545
+msgid "Wrong username or password!"
+msgstr "Benutzername oder Passwort falsch!"
+
+#: asgaros-forum-frontend-utilities.php:580
+#: asgaros-forum-frontend-utilities.php:586
+msgid "Invalid username"
+msgstr "Ungültiger Benutzername"
+
+#: asgaros-forum-frontend-utilities.php:583
+msgid "Username already taken"
+msgstr "Benutzername wird bereits verwendet"
+
+#: asgaros-forum-frontend-utilities.php:589
+msgid "Email address already taken"
+msgstr "Email Adresse wird bereits verwendet"
+
+#: asgaros-forum-frontend-utilities.php:592
+msgid "Invalid email"
+msgstr "Ungültige Email"
+
+#: asgaros-forum-frontend-utilities.php:595
+msgid "Please enter a password"
+msgstr "Bitte gib ein Passwort ein"
+
+#: asgaros-forum-frontend-utilities.php:601
+msgid "Passwords do not match"
+msgstr "Passwörter stimmen nicht überein"
+
+#: asgaros-forum-frontend-utilities.php:629
+msgid ""
+"Registration successfully! We have sent an confirmation link to your email, "
+"please check your inbox."
+msgstr ""
+"Registrierung erfolgreich! Wir haben einen Bestätigungslink an deine Email "
+"Adresse geschickt, bitte überprüfe deinen Posteingang."
+
+#: asgaros-forum-frontend-utilities.php:659
+msgid "Admin"
+msgstr "Admin"
+
+#: asgaros-forum-frontend-utilities.php:661
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#: asgaros-forum-frontend-utilities.php:663
+msgid "Unconfirmed"
+msgstr "Unbestätigt"
+
+#: asgaros-forum-frontend-utilities.php:676
+#: asgaros-forum-frontend-utilities.php:684
+#: asgaros-forum-frontend-utilities.php:703
+msgid "Done!"
+msgstr "Erledigt!"
+
+#: asgaros-forum-frontend-utilities.php:678
+#: asgaros-forum-frontend-utilities.php:686
+#: asgaros-forum-frontend-utilities.php:705
+msgid "Error!"
+msgstr "Fehler!"
+
+#: asgaros-forum-frontend-utilities.php:689
+msgid "Revoke"
+msgstr "Widerrufen"
+
+#: asgaros-forum-frontend-utilities.php:692
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: asgaros-forum-frontend-utilities.php:710
+msgid "Send mail"
+msgstr "E-Mail senden"
+
+#: asgaros-forum-frontend-utilities.php:724
+msgid "Something went wrong!"
+msgstr "Es ist etwas schief gelaufen!"
+
+#: asgaros-forum-frontend-utilities.php:731
+msgid "Done! Please check your inbox."
+msgstr "Erledigt! Bitte überprüfe deinen Posteingang."
+
+#: asgaros-forum-frontend-utilities.php:764
+#, php-format
+msgid "[%s] Confirm Registration"
+msgstr "[%s] Registrierung Bestätigen"
+
+#: asgaros-forum-frontend-utilities.php:767
+msgid "Someone registered an account with your email adress."
+msgstr "Jemand hat einen Account mit deiner E-Mail Adresse erstellt."
+
+#: asgaros-forum-frontend-utilities.php:768
+#: asgaros-forum-frontend-utilities.php:871
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Falls du diese E-Mail irrtümlich erhalten hast, ignorier sie bitte und es "
+"wird nichts weiter passieren."
+
+#: asgaros-forum-frontend-utilities.php:769
+msgid "After confirmation you can login using the following data:"
+msgstr "Nach der Bestätigung kannst du dich mit folgenden Daten anmelden:"
+
+#. translators: %s: User login.
+#: asgaros-forum-frontend-utilities.php:770
+#: asgaros-forum-frontend-utilities.php:870
+#, php-format
+msgid "Username: %s"
+msgstr "Benutzername: %s"
+
+#: asgaros-forum-frontend-utilities.php:771
+msgid "Password: Your chosen password"
+msgstr "Passwort: Dein gewähltes Passwort"
+
+#: asgaros-forum-frontend-utilities.php:772
+msgid "To confirm the registration, visit the following address:"
+msgstr ""
+"Um die Registrierung zu bestätigen, besuche bitte die folgende Adresse:"
+
+#: asgaros-forum-frontend-utilities.php:839
+msgid "Enter a username or e-mail address."
+msgstr "Gib einen Benutzernamen oder Email Adresse ein."
+
+#: asgaros-forum-frontend-utilities.php:854
+msgid "Invalid username or e-mail address."
+msgstr "Ungültiger Benutzername oder Email Adresse."
+
+#: asgaros-forum-frontend-utilities.php:863
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Passwort zurücksetzen"
+
+#: asgaros-forum-frontend-utilities.php:866
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Jemand hat ein neues Passwort für den folgenden Account angefragt:"
+
+#. translators: %s: Site name.
+#: asgaros-forum-frontend-utilities.php:868
+#, php-format
+msgid "Site Name: %s"
+msgstr "Seiten Name: %s"
+
+#: asgaros-forum-frontend-utilities.php:872
+msgid "To reset your password, visit the following address:"
+msgstr "Um Ihr Passwort zurückzusetzen, besuchen Sie die folgende Adresse:"
+
+#: asgaros-forum-frontend-utilities.php:885
+msgid ""
+"We have sent an confirmation link to your email, please check your inbox."
+msgstr ""
+"Wir haben einen Bestätigungslink an deine Email Adresse geschickt, bitte "
+"überprüfe deinen Posteingang."
+
+#: classes/admin.php:31
+msgid "Frontend Utilities by Quenso"
+msgstr "Frontend Utilities by Quenso"
+
+#: classes/admin.php:31
+msgid "Frontend Utilities"
+msgstr "Frontend Utilities"
+
+#. Plugin Name of the plugin/theme
+#: classes/admin.php:39
+msgid "Frontend Utilities for Asgaros Forum"
+msgstr "Frontend Utilities für Asgaros Forum"
+
+#: classes/admin.php:51
+msgid "Get support"
+msgstr "Support"
+
+#: classes/admin.php:55
+msgid "Donate"
+msgstr "Spenden"
+
+#: classes/admin.php:72
+msgid "Updated successfully."
+msgstr "Erfolgreich aktualisiert."
+
+#: classes/admin.php:84
+msgid "Save Settings"
+msgstr "Änderungen Speichern"
+
+#: classes/admin.php:98
+msgid "Frontend Profile Editing"
+msgstr "Frontend Profil Bearbeiten"
+
+#: classes/admin.php:106
+msgid ""
+"This will add an AJAX overlay to edit profile in frontend user profiles "
+"while clicking on \"edit profile\" link."
+msgstr ""
+"Fügt ein AJAX-Overlay hinzu, um das Profil im Frontend zu bearbeiten, "
+"nachdem Sie auf den Link \"Profil bearbeiten\" klicken."
+
+#: classes/admin.php:111
+msgid "Frontend Login"
+msgstr "Frontend Anmelden"
+
+#: classes/admin.php:119
+msgid ""
+"This will add an AJAX popup to login while clicking on \"login\" link in "
+"Asgaros Forum."
+msgstr ""
+"Fügt ein AJAX-Popup hinzu, welches sich im Asgaros-Forum beim Klick auf den "
+"Link \"Anmelden\" öffnet."
+
+#: classes/admin.php:124
+msgid "Frontend Reset Password"
+msgstr "Frontend Passwort Zurücksetzen"
+
+#: classes/admin.php:132
+msgid ""
+"This will add an AJAX popup to reset password while clicking on \"Forgot "
+"password\" link in login popup. Needs Frontend Login to be enabled!"
+msgstr ""
+"Fügt ein AJAX-Popup hinzu, welches sich im Login Popup beim Klick auf den "
+"Link \"Passwort vergessen\" öffnet. Erfordert die Aktivierung des Frontend "
+"Logins!"
+
+#: classes/admin.php:137
+msgid "Frontend Register"
+msgstr "Frontend Registrierung"
+
+#: classes/admin.php:145
+msgid ""
+"This will add an AJAX popup to register while clicking on \"register\" link "
+"in Asgaros Forum."
+msgstr ""
+"Fügt ein AJAX-Popup hinzu, welches sich im Asgaros-Forum beim Klick auf den "
+"Link \"Registrieren\" öffnet."
+
+#: classes/admin.php:150
+msgid "Confirm Registrations"
+msgstr "Registrierungen Bestätigen"
+
+#: classes/admin.php:158
+msgid "Users need to confirm their registration via link in email."
+msgstr "Benutzer müssen ihre Registrierung per E-Mail bestätigen."
+
+#: classes/admin.php:163
+msgid "Custom Avatars"
+msgstr "Benutzerdefinierte Avatare"
+
+#: classes/admin.php:171
+msgid "This will add fully WordPress compatible custom avatars to your forum."
+msgstr ""
+"Fügt vollständig WordPress-kompatible benutzerdefinierte Avatare zum Forum "
+"hinzu."
+
+#: templates/edit-profile.php:6
+msgid "Personal"
+msgstr "Persönlich"
+
+#: templates/edit-profile.php:8
+msgid "First Name:"
+msgstr "Vorname:"
+
+#: templates/edit-profile.php:12
+msgid "Last Name:"
+msgstr "Nachname:"
+
+#: templates/edit-profile.php:16
+msgid "Nickname:"
+msgstr "Spitzname:"
+
+#: templates/edit-profile.php:20
+msgid "Website:"
+msgstr "Webseite:"
+
+#: templates/edit-profile.php:24
+msgid "Display Name:"
+msgstr "Anzeigename:"
+
+#: templates/edit-profile.php:40
+msgid "Biographical Info:"
+msgstr "Biografie:"
+
+#: templates/edit-profile.php:52
+msgid "Billing Address"
+msgstr "Rechnungsadresse"
+
+#: templates/edit-profile.php:54
+msgid "Line 1:"
+msgstr "Zeile 1:"
+
+#: templates/edit-profile.php:58
+msgid "Line 2:"
+msgstr "Zeile 2:"
+
+#: templates/edit-profile.php:62
+msgid "City:"
+msgstr "Stadt:"
+
+#: templates/edit-profile.php:66
+msgid "Zip / Postal Code:"
+msgstr "PLZ:"
+
+#: templates/edit-profile.php:70
+msgid "Country:"
+msgstr "Land:"
+
+#: templates/edit-profile.php:78
+msgid "State / Province:"
+msgstr "Staat / Provinz:"
+
+#: templates/edit-profile.php:95
+msgid "Forum"
+msgstr "Forum"
+
+#: templates/edit-profile.php:98
+msgid "Notify me when mentioned:"
+msgstr "Benachrichtige mich bei Erwähnungen:"
+
+#: templates/edit-profile.php:104
+msgid "Profile picture:"
+msgstr "Profilbild:"
+
+#: templates/edit-profile.php:110
+msgid "Signature:"
+msgstr "Signatur:"
+
+#: templates/edit-profile.php:117
+msgid "You can use the following HTML tags in signatures:"
+msgstr "Du kannst die folgenden HTML tags in der Signatur benutzen:"
+
+#: templates/edit-profile.php:119
+msgid "HTML tags are not allowed in signatures."
+msgstr "HTML tags sind in der Signatur nicht erlaubt."
+
+#: templates/edit-profile.php:127
+msgid "Account"
+msgstr "Account"
+
+#: templates/edit-profile.php:129
+msgid "Email Address:"
+msgstr "Email Adresse:"
+
+#: templates/edit-profile.php:133
+msgid "New Password:"
+msgstr "Neues Passwort:"
+
+#: templates/edit-profile.php:137
+msgid "Re-enter Password:"
+msgstr "Passwort Wiederholen:"
+
+#: templates/edit-profile.php:144
+msgid "Save Changes"
+msgstr "Änderungen Speichern"
+
+#: templates/edit-profile.php:158
+msgid "Back to profile"
+msgstr "Zurück zum Profil"
+
+#: templates/login.php:18 templates/reset-password.php:20
+msgid "Username or Email"
+msgstr "Benutzername oder E-Mail"
+
+#: templates/login.php:26 templates/register.php:34
+msgid "Password"
+msgstr "Passwort"
+
+#: templates/login.php:31
+msgid "Login"
+msgstr "Anmelden"
+
+#: templates/login.php:40
+msgid "Remember me"
+msgstr "Angemeldet bleiben"
+
+#: templates/login.php:44
+msgid "Forgot Password"
+msgstr "Passwort vergessen"
+
+#: templates/register.php:18
+msgid "Username"
+msgstr "Benutzername"
+
+#: templates/register.php:26
+msgid "Email"
+msgstr "E-Mail"
+
+#: templates/register.php:42
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: templates/register.php:47
+msgid "Register"
+msgstr "Registrieren"
+
+#: templates/reset-password.php:6
+msgid "Please enter your username or email address."
+msgstr "Gib deinen Benutzernamen oder Email Adresse ein."
+
+#: templates/reset-password.php:7
+msgid "You will receive a link to create a new password via email."
+msgstr ""
+"Du bekommst eine Link per E-Mail zugeschickt um ein neues Passwort zu "
+"erstellen."
+
+#: templates/reset-password.php:25
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.asgaros.de"
+msgstr "https://www.asgaros.de"
+
+#. Description of the plugin/theme
+msgid "Extends the frontend functionality of Asgaros Forum."
+msgstr "Erweitert die Frontend Funktionalität von Asgaros Forum."
+
+#. Author of the plugin/theme
+msgid "Quenso"
+msgstr "Quenso"
+
+#. Author URI of the plugin/theme
+msgid "https://quenso.de"
+msgstr "https://quenso.de"
+
+#~ msgid "Your account has been successfully confirmed."
+#~ msgstr "Dein Account wurde erfolgreich bestätigt."
+
+#~ msgid "Registration Confirm Page"
+#~ msgstr "Registrierung Bestätigen Seite"
+
+#~ msgid ""
+#~ "Slug of the page which contains the [affu-confirm-registration] "
+#~ "shortcode. Without slash \"/\" at the beginning and end."
+#~ msgstr ""
+#~ "Slug der Seite die den [affu-confirm-registration] Shortcode enthält. "
+#~ "Ohne Slash \"/\" am Anfang und Ende."
+
+#~ msgid ""
+#~ "Please wait a moment. You will be redirected after confirming your "
+#~ "account."
+#~ msgstr "Bitte warte einen Moment. "
+
+#~ msgid "Update"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "Shortcode location"
+#~ msgstr "Ort des Shortcodes"
+
+#~ msgid ""
+#~ "Enter the slug of the page containing the [af-edit-profile] shortcode."
+#~ msgstr ""
+#~ "Gib den slug der Seite ein die den [af-edit-profile] shortcode enthällt."
+
+#~ msgid "You need to login to have access to your profile."
+#~ msgstr "Du musst dich einloggen um dein Profil zu bearbeiten."
+
+#~ msgid "Edit Profile"
+#~ msgstr "Profil bearbeiten"
+
+#~ msgid "Asgaros Forum - Frontend Utilities by Quenso"
+#~ msgstr "Asgaros Forum - Frontend Utilities by Quenso"
+
+#~ msgid "Adds frontend profile editing and custom avatars to Asgaros Forum."
+#~ msgstr ""
+#~ "Erweitert Asgaros Forum um das bearbeiten von Profilen im Frontend und "
+#~ "benutzerdifinierte Avatare."
+
+#~ msgid "Quenso Licenses"
+#~ msgstr "Quenso Lizenzen"
+
+#~ msgid ""
+#~ "Please enter a license to use all of the features and receive automatic "
+#~ "updates."
+#~ msgstr ""
+#~ "Gib deinen Lizenz Key ein um alle Funktionen und automatische Updates zu "
+#~ "aktivieren."
+
+#~ msgid "Enter License."
+#~ msgstr "Lizenz Key eingeben."
+
+#~ msgid "License settings"
+#~ msgstr "Lizenz Einstellungen"
+
+#~ msgid "Licenses"
+#~ msgstr "Linzenzen"
+
+#~ msgid "License updated."
+#~ msgstr "Lizenz aktualisiert."
+
+#, php-format
+#~ msgid "Your license key expired on %s."
+#~ msgstr "Deine Lizenz läuft am %s ab."
+
+#~ msgid "Your license key has been disabled."
+#~ msgstr "Deine Lizenz wurde deaktiviert."
+
+#~ msgid "Your license is not active for this URL."
+#~ msgstr "Deine Lizenz ist für diese URL nicht aktiv."
+
+#, php-format
+#~ msgid "This appears to be an invalid license key for %s."
+#~ msgstr "Dies scheint ein ungültiger Lizenz Key für %s zu sein."
+
+#~ msgid "Your license key has reached its activation limit."
+#~ msgstr "Deine Lizenz hat ihr maximum an Aktivierungen erreicht."
+
+#~ msgid "An error occurred, please try again."
+#~ msgstr "Es ist ein Fehler aufgetreten, bitte versuch es nochmal."
+
+#~ msgid "Update license"
+#~ msgstr "Lizenz aktualisieren"
+
+#~ msgid "Activate license"
+#~ msgstr "Lizenz aktivieren"
+
+#~ msgid "Please enter your license key."
+#~ msgstr "Gib bitte deinen Lizenz Key ein."
+
+#~ msgid "Please enter a valid licence key."
+#~ msgstr "Gib bitte einen gültigen Lizenz Key ein."
+
+#~ msgid "Your license is active."
+#~ msgstr "Deine Lizenz ist aktiv."
+
+#, php-format
+#~ msgid "Expires in %s"
+#~ msgstr "Läuft in %s ab"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Es ist eine neue Version für %1$s verfügbar. %2$sVersion ansehen %3$s "
+#~ "details%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Es ist eine neue Version für %1$s verfügbar. %2$sVersion ansehen %3$s "
+#~ "details%4$s oder %5$sjetzt updaten%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Du hast keine Berechtigung um Plugin Updates zu installieren"
+
+#~ msgid "Avatar:"
+#~ msgstr "Avatar:"
+
+#~ msgid "You can change your avatar on Gravatar."
+#~ msgstr "Du kannst deinen Avatar auf Gravatar ändern."

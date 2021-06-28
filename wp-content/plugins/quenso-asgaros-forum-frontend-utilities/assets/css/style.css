@@ -1,0 +1,185 @@
+/* EDIT PROFILE */
+#affu_profile_editor p {
+	width: 100%;
+	margin: 0px;
+}
+#affu_profile_editor label {
+	display: inline-block;
+	float: left;
+	clear: left;
+	width: 220px;
+}
+#af-wrapper #edit-profile input, #af-wrapper #edit-profile select,  #af-wrapper #edit-profile textarea, #af-wrapper #edit-profile span {
+	background-color: transparent;
+	display: inline-block;
+  float: left;
+	font-size: 1em;
+	margin-bottom: 15px;
+	padding: 0.1em;
+	width: 100%;
+	max-width: 450px;
+}
+#af-wrapper #edit-profile input, #af-wrapper #edit-profile select {
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 0px;
+	padding: 5px;
+	padding-left: 10px;
+}
+#af-wrapper #edit-profile textarea {
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 0px;
+	height: 80px;
+	padding: 10px;
+}
+#af-wrapper #edit-profile legend {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px
+}
+#af-wrapper #edit-profile #affu_profile_editor_submit {
+	margin-top: 20px;
+	width: 180px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	background-color: white;
+	color: #222222;
+}
+#af-wrapper .success-message {
+	color: #fff;
+	background-color: #65ad65;
+	padding: 10px;
+	margin-bottom: 10px!important;
+	width: 96%;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+#af-wrapper .success-message p{
+    margin-bottom: 0px;
+}
+#af-wrapper .error-message {
+	color: #fff;
+	background-color: #d67b6b;
+	padding: 10px;
+	width: 96%;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+	margin-bottom: 10px!important;
+	-webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+     opacity: 1;
+}
+#af-wrapper .error-message p{
+    margin-bottom: 0px;
+}
+#af-wrapper #edit-profile .error-message p, #af-wrapper #edit-profile .success-message p {
+	margin: 0px;
+}
+#af-wrapper #edit-profile #affu_profile_signature_info, #af-wrapper #edit-profile #affu_profile_signature_info code {
+	font-size: 12px;
+}
+#af-wrapper #edit-profile #affu_profile_signature_info code {
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 5px;
+}
+#af-wrapper #edit-profile input#affu_mention {
+	width: 10px;
+	margin-top: 3px;
+}
+#af-wrapper #edit-profile input#affu_avatar {
+	border-bottom: none;
+	padding: 0px;
+}
+#af-wrapper #affu_profile_editor_online .avatar {
+    box-shadow: 0px 0px 5px #82f338;
+    border: 1px solid #82f338;
+}
+/* AJAX FORMS */
+#affu-ajax-login, #affu-ajax-register, #affu-ajax-reset-password {
+    position: absolute;
+    left: 50%;
+}
+.affu-form-container {
+    position: relative;
+    width: 400px;
+    background-color: #fbfbfb;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 5px!important;
+    padding: 20px;
+    left: -50%;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+	z-index: 999;
+}
+.affu-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.affu-form-field p {
+    margin-bottom: 5px;
+}
+.affu-form-icon {
+    width: 29px;
+    height: 40px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .1);
+    padding: 9.5px;
+    border-radius: 5px 0px 0px 5px!important;
+}
+.affu-form-input {
+    margin-left: 29px;
+}
+.affu-form-input input {
+    width: 100%;
+	height: 40px;
+	border-radius: 0px 5px 5px 0px!important;
+	font: normal;
+	background-color: #fff!important;
+	font-size: 14px;
+}
+.affu-form-submit {
+    width: 100%;
+	height: 40px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 5px;
+	padding: 0px 20px;
+	color: #222222;
+	background-color: #fff;
+}
+.affu-form-submit:hover, .affu-form-submit:focus {
+	color: #222222;
+	background-color: #fff;
+}
+.affu-form-submit:active {
+    border: 2px solid rgba(0, 0, 0, .05);
+}
+.affu-form-checkbox {
+    margin-bottom: -20px;
+}
+.affu-form-link {
+    float: right;
+	cursor: pointer;
+}
+.affu-error {
+	text-align: center;
+    color: red;
+}
+.affu-sucess {
+	text-align: center;
+}
+.affu-resend-confirmation {
+    font-size: smaller!important;
+    cursor: pointer;
+}
+@media screen and (max-width: 782px) {
+    #affu-ajax-login, #affu-ajax-register, #affu-ajax-reset-password {
+        position: static;
+    }
+    .affu-form-container {
+        position: static;
+        box-shadow: none;
+        width: inherit;
+    }
+}
