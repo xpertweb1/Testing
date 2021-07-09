@@ -6,6 +6,25 @@
 *	@package WordPress
 */
 get_header(); ?>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+
+
+<div class="container">
+	<h3>Bootstrap Multi Select Date Picker</h3>
+	<input type="text" class="form-control date" placeholder="Pick the multiple dates">
+</div>
+
+<script>
+
+$('.date').datepicker({
+  multidate: true,
+	format: 'dd-mm-yyyy'
+});
+</script>
+
+
 <?php
         if (!empty($_POST)) {
         global $wpdb;
